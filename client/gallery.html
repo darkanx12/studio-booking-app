@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+  <header class="header">
+    <div class="container nav-container">
+      <div class="logo">
+        <span class="logo-icon">📸</span>
+        <span class="logo-text">Dipti Studio</span>
+      </div>
+
+      <nav class="nav">
+        <button class="menu-toggle" aria-label="Toggle menu">
+          ☰
+        </button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <body>
+
+    <!-- gallery background video  -->
+    <section class="hero-section">
+      <video id="heroVideo" autoplay muted playsinline></video>
+    </section>
+
+
+        <!-- Gallery Section -->
+    <section id="gallery" class="section section-alt">
+      <div class="container">
+        <!-- <div class="gallery-hero"> -->
+            <h2 class="section-title">Gallery</h2>
+            <p class="section-subtitle">
+                Kuch sample photos jo hamare kaam ka idea dete hain.
+            </p>
+        <!-- </div> -->
+
+        <div class="gallery-grid">
+          <!-- Yaha tum apni images/ ka path laga sakte ho -->
+          <div class="gallery-item"></div>
+          <div class="gallery-item"></div>
+          <div class="gallery-item"></div>
+          <div class="gallery-item"></div>
+          <div class="gallery-item"></div>
+          <div class="gallery-item"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-container">
+        <p>© <span id="year"></span> Dipti Studio. All rights reserved.</p>
+        <p>Design & Developed By Abhishek Rana and team using HTML, CSS & JavaScript.</p>
+      </div>
+    </footer>
+
+    <script src="js/config.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

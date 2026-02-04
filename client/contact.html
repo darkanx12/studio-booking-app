@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <!-- ✅ Correct path -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+  <header class="header">
+    <div class="container nav-container">
+      <div class="logo">
+        <span class="logo-icon">📸</span>
+        <span class="logo-text">Dipti Studio</span>
+      </div>
+
+      <nav class="nav">
+        <button class="menu-toggle">☰</button>
+        <ul class="nav-links">
+          <!-- ✅ Correct paths -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="service.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="contact" class="section">
+    <div class="container contact-container">
+
+      <div class="contact-info">
+        <h2 class="section-title">Contact & Booking</h2>
+        <p class="section-subtitle">
+          Wedding photo & video tender ya koi bhi studio ka kaam – form fill karke
+          ya call karke contact karein.
+        </p>
+        <div class="contact-details">
+          <p>📞 <strong>Mobile:</strong> +91 9135961097</p>
+          <p>📩 <strong>Email:</strong> abhishekrana@gmail.com</p>
+          <p>📍 <strong>Address:</strong> <a href="https://www.google.com/maps/place/Dhangara,+Jharkhand/@23.9858139,84.9776615,3a,75y,101.95h,88.32t/data=!3m7!1e1!3m5!1sik2wKWOEDwwy8T6ycJZ04g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D1.6799498130167905%26panoid%3Dik2wKWOEDwwy8T6ycJZ04g%26yaw%3D101.94605789847651!7i13312!8i6656!4m6!3m5!1s0x39f4ab14d64dcaef:0x73073b41dccb6654!8m2!3d23.9961642!4d84.966149!16s%2Fg%2F12hq231j1?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D" target="_blank">Google map link</a></p>
+        </div>
+        <p>
+          Aap form submit karoge to hum aapse phone ya WhatsApp ke through 
+          contact karenge aur details discuss karenge.
+        </p>
+      </div>
+
+
+      <form class="contact-form" id="bookingForm">
+        <h3>Booking / Tender Form</h3>
+
+        <div class="form-group">
+          <input type="text" id="name" placeholder="Your Name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Mobile Number*</label>
+          <input type="tel" id="phone" placeholder="Your Mobile Number" required />
+        </div>
+
+        <div class="form-group">
+          <label for="service">select options*</label>
+          <select id="service" required>
+            <option value="">-- Select --</option>
+            <option value="xerox-print">Xerox / Document Print</option>
+            <option value="photo-print">Photo Printing</option>
+            <option value="wedding">Wedding Photo & Video</option>
+            <option value="id-photo">ID / Passport Photo</option>
+            <option value="digital">Digital / Online Work</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="date">preferred Date</label>
+          <input type="date" id="date" />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Details / requirement</label>
+            <textarea id="message" rows="4" placeholder="Write Your requirement here..."></textarea>
+        </div>
+        
+        
+        <button type="submit" class="btn primary full-width">Submit Request</button>
+
+        <p class="form-note">
+            *Ye form demo hai – actual booking ke liye aapko phone ya WhatsApp se bhi contact karna hoga.
+          </p>
+
+      </form>
+
+    </div>
+  </section>
+
+    <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>© <span id="year"></span> Dipti Studio. All rights reserved.</p>
+      <p>Design & Developed By Abhishek Rana and team using HTML, CSS & JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
